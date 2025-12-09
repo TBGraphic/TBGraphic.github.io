@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  background-image: url('https://images.unsplash.com/photo-1599521326474-2d84500dd895?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-origin: padding-box;
+  padding: 20px  
+}
+header{
+  font-size: 30px;
+  font-family: Arial;
+      background-color: #2E6F40;
+
+}
+  nav {
+    background-color: #051D01;
+    font-size:20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    font-size: 60px;
+  font-family:bree serif;
+  color: white;
+     padding-top: 30px;
+  text-align: center;
+    margin: 36px
+  }
+h2{
+  text-align: center
+}
+.paragraph1{
+  text-align: center;
+   padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 40px;
+  margin-right: 40px
+}
+ ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  ul li a:hover {
+    color: grey;
+  }
+  
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  @media (max-width:  992px) {
+    .checkbtn {
+      display: block;
+      order: 1;
+      margin-right: 20px;
+    }
+  
+    ul {
+      position: fixed;
+      top: 80px;
+      right: -100%;
+      background-color: black;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s;
+    }
+  
+    ul li {
+      margin: 20px 0;
+    }
+  
+    ul li a {
+      font-size: 20px;
+    }
+  
+    #check:checked ~ ul {
+      right: 0;
+    }
+   .logo{
+  font-family: monotype corsiva;
+  color: #FFFF;
+  text-align: center;
+  margin: 35px; 
+    }
+    
+    section footer {
+   background-color:#3d0f0f;
+  color:#FFFF;
+  padding:10px;
+ align-items:center;
+  font-family:Arial;
+    margin-top:20px;
+}
+  }
